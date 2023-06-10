@@ -14,5 +14,5 @@ Java, Spring Boot, Maven, HTML, CSS, jQuery and Bootstrap.
 1. Run "docker pull ejwang150/product-aggregator:1.1"
 2. Run "docker run -itd -p 8081:8080 ejwang150/product-aggregator:1.1"
 3. Run http://localhost:8081/index to enter the application.
-4. 5. You should be able to see the following page.
+4. You should be able to see the following page.
 ![image](index.JPG)
