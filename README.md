@@ -7,3 +7,5 @@ Java, Spring Boot, Maven, HTML, CSS, jQuery and Bootstrap.
 2. At the folder, run "docker build -t myapp:1.1 ."
 3. Run "docker run -itd -p 8081:8080 --name="my_application_container" myapp:1.1"
 4. Run http://localhost:8081/index to enter the application.
+5. You should be able to see the following page.
+![image](index.JPG)
