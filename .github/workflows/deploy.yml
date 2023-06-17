@@ -13,5 +13,5 @@ jobs:
       - name: Deploy to Render
         uses: JorgeLNJunior/render-deploy@v1.3.2
         with:
-          service_id: ${{ secrets.RENDER_RPODUCT_SERVICE_ID }}
+          service_id: ${{ secrets.RENDER_PRODUCT_SERVICE_ID }}
           api_key: ${{ secrets.RENDER_PRODUCT_API_KEY }}
