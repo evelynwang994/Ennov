@@ -1,0 +1,17 @@
+name: Deploy to Render
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - README.md
+jobs:
+  Deploy-to-Render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Deploy to Render
+        uses: JorgeLNJunior/render-deploy@v1.3.2
+        with:
+          service_id: ${{ secrets.RENDER_RPODUCT_SERVICE_ID }}
+          api_key: ${{ secrets.RENDER_PRODUCT_API_KEY }}
