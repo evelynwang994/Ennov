@@ -6,13 +6,13 @@ Java, Spring Boot, JPA, Maven, HTML, CSS, jQuery and Bootstrap.
 ### Build Image by Yourself
 1. Download the Dockerfile and product-aggregator.war to the same folder.
 2. At the folder, run "docker build -t myapp:1.1 ."
-3. Run "docker run -itd -p 8081:8080 --name="my_application_container" myapp:1.1"
+3. Run "docker run -p 8081:8080 --name="my_application_container" myapp:1.1"
 4. Run http://localhost:8081/index to enter the application.
 5. You should be able to see the following page.
 ![image](index.JPG)
 ### Download Image from Dockerhub
 1. Run "docker pull ejwang150/product-aggregator:1.1"
-2. Run "docker run -itd -p 8081:8080 ejwang150/product-aggregator:1.1"
+2. Run "docker run -p 8081:8080 ejwang150/product-aggregator:1.1"
 3. Run http://localhost:8081/index to enter the application.
 4. You should be able to see the following page.
 ![image](index.JPG)
