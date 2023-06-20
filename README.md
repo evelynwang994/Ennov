@@ -1,7 +1,7 @@
 # Product Aggregator
 Users can use this application to upload a product file, use filters to query and download an Excel file to show differences between Product Line and Product Generic.
 ## Tech Stack
-Java, Spring Boot, Maven, HTML, CSS, jQuery and Bootstrap.
+Java, Spring Boot, JPA, Maven, HTML, CSS, jQuery and Bootstrap.
 ## How to Run the Application
 ### Build Image by Yourself
 1. Download the Dockerfile and product-aggregator.war to the same folder.
